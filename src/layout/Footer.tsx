@@ -5,6 +5,6 @@ import type { VFC } from "react";
  */
 export const Footer: VFC = () => (
   <div>
-    <small>&copy; 20xx example</small>
+    <small>&copy; 2022 Takuya Saito</small>
   </div>
 );
