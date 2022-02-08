@@ -13,7 +13,7 @@ export const NavLink = (props: Props) => {
   // eslint-disable-next-line react/destructuring-assignment
   const { activeClassName, children, ...linkProps } = props;
   const router = useRouter();
-  const pathname = router.pathname === "/root" ? "/" : router.pathname;
+  const pathname = router.pathname === "/top" ? "/" : router.pathname;
 
   const className =
     pathname === linkProps.href

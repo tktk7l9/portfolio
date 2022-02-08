@@ -12,7 +12,6 @@ export const Blog: VFC = () => {
   ];
   return (
     <>
-      <h2>Blog!</h2>
       <ul>
         {blogs.map((blog: BlogItem) => (
           <li key={blog.id}>

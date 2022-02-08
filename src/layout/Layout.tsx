@@ -7,12 +7,12 @@ import { LayoutErrorBoundary } from "./LayoutErrorBoundary";
 /**
  * @package
  */
-export const FixedLayout: CustomLayout = (page) => (
-  <div className="flex flex-col mx-auto max-w-screen-md min-h-screen">
-    <header>
+export const Layout: CustomLayout = (page) => (
+  <div className="flex flex-col items-center mx-auto max-w-screen-md min-h-screen">
+    <header className="pt-6">
       <Header />
     </header>
-    <main className="flex-1 bg-blue-300">
+    <main className="flex-1 pt-6">
       <LayoutErrorBoundary>{page}</LayoutErrorBoundary>
     </main>
     <footer>

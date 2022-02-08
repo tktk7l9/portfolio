@@ -7,11 +7,10 @@ export const Index: VFC = () => {
   };
 
   return (
-    <div>
-      <h2>Index</h2>
-      <Button tag="button" className="p-2" onClick={handleClick}>
+    <>
+      <Button tag="button" className="" onClick={handleClick}>
         Click me!
       </Button>
-    </div>
+    </>
   );
 };
